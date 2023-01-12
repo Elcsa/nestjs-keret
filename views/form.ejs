@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100;
+            justify-content: center;
+            background-color: black;
+            color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <h1> uj konyv felvetele</h1>
+    <form method="post">
+        <label for="rating">
+            rating:
+            <input type="number"required name="rating"step="1"><br>
+        
+        </label>
+        <label for ="title">
+            title:
+            <input type="text" name="title" required style="padding-right:19px;"><br>
+        </label>
+        <button type="submit">felvesz</button><br>
+        <a href="/"style='color:black;'>viszza a foooldalra</a>
+    </form>
+</body>
+</html>
